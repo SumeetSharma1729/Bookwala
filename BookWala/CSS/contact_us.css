@@ -1,0 +1,46 @@
+.register{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: 50px;
+   margin: 30px;
+   
+}
+form{
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    background-color: rgba(100, 100, 100, 0.6);
+}
+label{
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+input{
+    font-size: 20px;
+}
+body{
+    background-image: url("../header/contact_us_background.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.submit{
+    height:50px;
+    width: 20%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(247, 135, 30);
+    color: black;
+}
+.submit:hover{
+    background-color: rgb(242, 163, 90);
+}
+.submit:active{
+    background-color: rgb(241, 141, 47);
+}

@@ -1,0 +1,58 @@
+.edit{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: 50px;
+    margin: 30px;
+}
+form{
+    margin: auto;
+    padding: 15px;
+    width: 50%;
+    background-color:white;
+}
+label{
+font-size:25px;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+input{
+    font-size: 20px;
+    border: none;
+    width: 75%;
+    height:40px;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+text-align: center;
+}
+.header{
+    background-color: #E9ECEF;
+    height: 50px;
+    width:54%;
+    margin: auto;
+    margin-top:100px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+body{
+    background-color: #E2E8F0;
+}
+
+.update_button{
+    height: 45px;
+    width: auto;
+    padding: 10px;
+    background-color: #2471A3;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+a:link{
+    text-decoration: none;
+}

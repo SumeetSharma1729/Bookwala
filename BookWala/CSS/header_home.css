@@ -1,0 +1,98 @@
+.header{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(236, 236, 236);
+    z-index: 100;
+}
+.left-section{
+    display: flex;
+    align-items: center; 
+}
+
+
+.logo{
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+    }
+.logo:hover{
+    cursor: pointer;
+    animation: rotation_logo;
+    animation-duration:2s;
+    animation-iteration-count:1;
+}
+@keyframes rotation_logo {
+    100%{transform:rotateX(360deg);}
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    width: 100px;
+}
+
+
+.right-section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:80px;
+    flex-shrink: 0;
+}
+.header-button{
+    border-radius: 18px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    height:40px;
+    width: 70px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header-button:hover{
+    background-color: orange;
+    color:black;
+}
+
+
+.cart-logo{
+    height: 35px;
+    border-radius:12px;
+}
+.cart-logo:hover{
+    cursor: pointer;
+    animation: rotation_cartlogo;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes rotation_cartlogo {
+    100%{transform:rotateY(360deg);}
+}
+
+.Login-button{
+    background-color: rgb(49, 49, 255);
+    color: white;
+    border-radius: 30px;
+    border: solid;
+    cursor: pointer;
+    height:40px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.Login-button:hover{
+    background-color:white;
+    color: blue;
+}

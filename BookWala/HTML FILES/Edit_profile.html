@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_Profile</title>
+    <link rel="stylesheet" href="CSS/Edit_profile.css">
+</head>
+<body>
+    <div class="header">
+        &nbsp;&nbsp;&nbsp;
+        <a href="index.php">Home</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="profile.php">User_profile</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="#">User_profile_Edit</a>
+    </div>
+    <div class="edit" >
+        <form method="post">
+            <label for="name">Full Name</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" name="name" id="name" placeholder="Full Name"><hr><br><br>
+            <label for="phone">Phone</label>&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="phone" id="phone" placeholder="Phone" ><hr><br><br>
+            <label for="address">Address</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="address" name="address" placeholder="Address"><hr><br><br>
+            <label for="address">Profile_Pic</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="image" accept=".jpg,.jpeg,.png"><hr><br><br>
+            <center><button type="submit" class="update_button">Update</button></center>
+        </form>
+    </div>
+</body>
+</html>
